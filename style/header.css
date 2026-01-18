@@ -1,0 +1,41 @@
+header{
+    background: linear-gradient(135deg, #010A1A 0%, #051948 100%);
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    position: sticky;
+}
+
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    
+}
+
+.ementos-header{
+    display: flex;
+    gap: 6rem;
+}
+
+.img-logo{
+    width: 90px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.botao-header{
+    font-family: var(--fonte-header);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--branco);
+    cursor: pointer;
+    
+}
+
+.botao-header:hover{
+    color: var(--azul-vibrante);
+    transition: 0.3s;
+    
+}

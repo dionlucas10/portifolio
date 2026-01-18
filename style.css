@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,600;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+@import url("style/header.css");
+@import url("style/banner.css");
+@import url("style/habilidade.css");
+
+:root {
+  --fundo-principal: #000101;
+  --azul-marinho: #051948;
+  --azul-claro: #0b3b9c;
+  --azul-vibrante: #0c6be0;
+  --branco: #ffffff;
+  --roxo: #6a35ff;
+  --degrade-azul: linear-gradient(100deg,#00060F 0%,#020B1F 35%,#03122F 65%,#051948 100%);
+
+  --fonte-header: "Plus Jakarta Sans", sans-serif;
+  --fonte-secundaria: "Preahvihear", sans-serif;
+}
+
+body {
+  background: var(--degrade-azul);
+  color: var(--branco);
+  font-family: var(--fonte-header);
+  font-weight: 600;
+
+}

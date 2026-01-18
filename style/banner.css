@@ -1,0 +1,102 @@
+.azul {
+  color: var(--azul-vibrante);
+}
+
+.fundo-gradiente {
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--roxo) 0%, transparent 70%);
+}
+
+.img-perfil {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.section-banner {
+  margin:
+    12,
+    7rem 0;
+}
+.banner {
+  display: flex;
+  flex-direction: row;
+  margin: 12.7rem 0 0 24.6rem;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.banner-div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.titulo1 {
+  font-size: 2rem;
+  margin: 0 0 10px 0;
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+}
+.frase1 {
+  font-size: 0.9rem;
+  margin: 0 0 2px 0;
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+}
+.frase2 {
+  font-size: 3rem;
+  line-height: 3rem;
+  width: 500px;
+  font-family: var(--fonte-secundaria);
+}
+.frase2 span {
+  color: var(--azul-vibrante);
+}
+
+.frasef {
+  font-size: 0.9rem;
+  width: 500px;
+  margin-top: 10px;
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+}
+
+.banner-div2 {
+  margin: 8.28rem 24.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 800px;
+}
+
+.texto-anim {
+  font-size: 2.5rem;
+  font-family: var(--fonte-secundaria);
+  font-weight: 400;
+}
+
+#typing {
+  border-right: 3px solid rgb(0, 110, 255);
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.text-sobre {
+  font-size: 1.3rem;
+  line-height: 2rem;
+}

@@ -1,0 +1,51 @@
+.habilidades {
+  margin: 15rem 0rem;
+}
+
+.titulo-habilidade {
+  font-family: var(--fonte-secundaria);
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.habilidades {
+  margin: 0px 100px;
+}
+
+.habilidades-cont {
+  /* background: linear-gradient(135deg, #1e3a8a, #020617); */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 4rem;
+  /* margin: 473px 0px; */
+  
+}
+.titulo-habilidade{
+    padding: 0 0 0 2rem;
+}
+
+.contene {
+  width: 570px;
+  height: 192.68px;
+  background: linear-gradient(135deg, #050b1f, #061a3a, #082b5c, #050b1f);
+  /* margin: 1rem; */
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contene:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(12, 107, 224, 0.6);
+}
+
+.texto-tecnologia{
+    font-family: var(--fonte-header);
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 800px;
+    text-align: justify;
+    margin: 0 auto;
+}
