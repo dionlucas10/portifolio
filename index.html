@@ -1,65 +1,136 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portifolio</title>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="nav-header">
-        <img class="img-logo" src="img/logo1.png" alt="img-logo" />
-        <ul class="ementos-header">
-          <li><a class="botao-header href="#home">Home</a></li>
-          <li><a class="botao-header href="#about">Sobre mim</a></li>
-          <li><a class="botao-header href="#projects">Projetos</a></li>
-          <li><a class="botao-header href="#contact">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <main>
-        <section class="section-banner">
-          <div class="banner">
-            <div class="fundo-gradiente">
-              <img class="img-perfil" src="img/logo.PNG" alt="foto de perfil">
-            </div>
-            <div class="banner-div">
-              <h1 class="titulo1">Hello! I Am <span class="azul">DION LUCAS</span></h1>
-              <p class="frase1">Um desenvolvedor que</p>
-              <h2 class="frase2">Julga um sistema pela <span>interface…</span></h2>
-              <p class="frasef">Porque se a interface não impressiona, o que mais pode?</p>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portifolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-header">
+      <img class="img-logo" src="img/logo1.png" alt="img-logo" />
+      <ul class="ementos-header">
+        <li><a class="botao-header href=" #home">Home</a></li>
+        <li><a class="botao-header href=" #about">Sobre mim</a></li>
+        <li><a class="botao-header href=" #projects">Projetos</a></li>
+        <li><a class="botao-header href=" #contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-banner">
+      <div class="banner">
+        <div class="fundo-gradiente">
+          <img class="img-perfil" src="img/logo.PNG" alt="foto de perfil">
+        </div>
+        <div class="banner-div">
+          <h1 class="titulo1">Hello! I Am <span class="azul">DION LUCAS</span></h1>
+          <p class="frase1">Um desenvolvedor que</p>
+          <h2 class="frase2">Julga um sistema pela <span>interface…</span></h2>
+          <p class="frasef">Porque se a interface não impressiona, o que mais pode?</p>
+        </div>
+      </div>
+
+      <div class="banner-div2">
+        <h2 class="texto-anim">
+          <span id="typing"></span>
+        </h2>
+        <p class="text-sobre">Estudante de Desenvolvimento Full Stack,
+          transformando ideias em soluções digitais por meio de
+          código limpo, interfaces intuitivas e experiências que geram
+          impacto real.</p>
+      </div>
+    </section>
+
+    <section class="habilidades">
+      <h2 class="titulo-habilidade">Habilidades:</h2>
+      <div class="habilidades-cont">
+        <div class="contene"></div>
+        <div class="contene"></div>
+        <div class="contene"></div>
+        <div class="contene"></div>
+      </div>
+
+
+      <div class="tecnologias">
+        <p class="texto-tecnologia">Possuo domínio em tecnologias voltadas ao <span class="azul">desenvolvimento
+            FullStack</span>, criando soluções digitais completas que unem design, performance e funcionalidade para
+          transformar ideias em experiências modernas e acessíveis.</p>
+      </div>
+
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/html.png" alt="HTML">
+            <p class="tech-name">HTML</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/css-3.png" alt="CSS">
+            <p class="tech-name">CSS</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/java-script.png" alt="JavaScript">
+            <p class="tech-name">JavaScript</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/typescript.png" alt="TypeScript">
+            <p class="tech-name">TypeScript</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/physics.png" alt="React">
+            <p class="tech-name">React</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/php.png" alt="php">
+            <p class="tech-name">PHP</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/bootstrap.png" alt="Bootstrap">
+            <p class="tech-name">Bootstrap</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/python.png" alt="python">
+            <p class="tech-name">Python</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/github.png" alt="github">
+            <p class="tech-name">GitHub</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/social.png" alt="social">
+            <p class="tech-name">GIT</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/figma.png" alt="figma">
+            <p class="tech-name">Figma</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/letter-c.png" alt="letter-c">
+            <p class="tech-name">C</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/programing.png" alt="programing">
+            <p class="tech-name">MySQL</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="/img/node-js.png" alt="node-js">
+            <p class="tech-name">Node.js</p>
           </div>
 
-          <div class="banner-div2">
-            <h2 class="texto-anim">
-              <span id="typing"></span>
-            </h2>
-            <p class="text-sobre">Estudante de Desenvolvimento Full Stack, 
-              transformando ideias em soluções digitais por meio de 
-              código limpo, interfaces intuitivas e experiências que geram 
-              impacto real.</p>
-          </div>
-        </section>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
-        <section class="habilidades">
-          <h2 class="titulo-habilidade">Habilidades:</h2>
-          <div class="habilidades-cont">
-            <div class="contene"></div>
-            <div class="contene"></div>
-            <div class="contene"></div>
-            <div class="contene"></div>
-          </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
 
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
 
-          <div class="tecnologias">
-            <p class="texto-tecnologia">Possuo domínio em tecnologias voltadas ao <span class="azul">desenvolvimento FullStack</span>, criando soluções digitais completas que unem design, performance e funcionalidade para transformar ideias em experiências modernas e acessíveis.</p>
-          </div>
-        </section>
-    </main>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <script src="/js/texto-deco.js"></script>
-  </body>
+  <script src="/js/swiper.js"></script>
+
+</body>
+
 </html>
