@@ -25,12 +25,12 @@
 .section-banner {
   margin:
     12,
-    7rem 0;
+    7rem 0 0;
 }
 .banner {
   display: flex;
   flex-direction: row;
-  margin: 12.7rem 0 0 24.6rem;
+  margin: 3rem 0 0 24.6rem;
   flex-wrap: wrap;
   gap: 15px;
 }

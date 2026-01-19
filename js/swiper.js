@@ -3,15 +3,20 @@ const swiper = new Swiper('.swiper', {
   spaceBetween: 20,
   loop: true,
 
-  speed: 6000,
+  speed: 5000, // Velocidade reduzida para transições mais rápidas
 
   autoplay: {
-    delay: 0,
-    disableOnInteraction: false,
-    pauseOnMouseEnter: false,
+    delay: 0, // Delay de 3 segundos entre slides
+    disableOnInteraction: true, // Pausa o autoplay quando o usuário interage
+    pauseOnMouseEnter: true, // Pausa quando o mouse entra
   },
 
   freeMode: false,
   freeModeMomentum: false,
-  
+
+  pagination: {
+    el: '.swiper .swiper-pagination',
+    clickable: true,
+  },
+
 });

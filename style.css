@@ -5,6 +5,8 @@
 @import url("style/banner.css");
 @import url("style/habilidade.css");
 @import url("style/carrosel.css");
+@import url("style/projetos.css");
+@import url("style/footer.css");
 
 :root {
   --fundo-principal: #000101;
@@ -24,5 +26,9 @@ body {
   color: var(--branco);
   font-family: var(--fonte-header);
   font-weight: 600;
+  margin: 0;
+  padding: 120px 0 0 0;
+  box-sizing: border-box;
+  width: 100%;
 
 }
