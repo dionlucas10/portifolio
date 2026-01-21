@@ -82,3 +82,56 @@
   font-weight: 400;
   /* color: var(--azul-vibrante); */
 }
+
+
+@media screen and (max-width: 844px) {
+  .habilidades {
+    margin: 1rem 1rem;
+  }
+
+  .titulo-habilidade {
+    font-size: 2rem;
+    padding: 0 0 0 1rem;
+  }
+
+  .habilidades-cont {
+    padding: 2rem 1rem;
+    gap: 20px;
+  }
+
+  .contene {
+    width: 100%;
+    max-width: 570px;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .img-habilidades {
+    width: 80px;
+    margin: 10px auto;
+  }
+
+  .textos-habilidades {
+    align-items: center;
+    line-height: 1rem;
+    gap: 0.5rem;
+  }
+
+  .texto-habilidades {
+    width: 100%;
+    text-align: center;
+  }
+
+  .texto-tecnologia {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .subititulo-habilidades {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+}

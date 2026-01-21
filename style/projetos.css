@@ -15,6 +15,7 @@
 
 .swiperManual {
   width: 100%;
+  height: auto;
 }
 
 .swiperManual .swiper-slide {
@@ -82,4 +83,42 @@
 
 .swiperManual .swiper-pagination-bullet-active {
   opacity: 1;
+}
+
+@media screen and (max-width: 844px) {
+  .projetos {
+    margin: 2rem auto;
+  }
+
+  .titulo-projetos-pri {
+    font-size: 2rem;
+  }
+
+  .swiper-slideMannual {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .img-projetos {
+    width: 100%;
+    margin: 0;
+  }
+
+  .div-textos {
+    position: static;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 1rem 0;
+  }
+
+  .titulo-projetos {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .texto-projeto {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
 }

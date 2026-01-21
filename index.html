@@ -11,23 +11,29 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
   <link rel="stylesheet" href="reset.css" />
   <link rel="stylesheet" href="style.css" />
+  <script src="js/header.js"></script>
 </head>
 
 <body>
   <header>
     <nav class="nav-header">
       <img class="img-logo" src="img/logo1.png" alt="img-logo" />
-      <ul class="ementos-header">
-        <li><a class="botao-header href=" #home">Home</a></li>
-        <li><a class="botao-header href=" #about">Sobre mim</a></li>
-        <li><a class="botao-header href=" #projects">Projetos</a></li>
-        <li><a class="botao-header href=" #contact">Contato</a></li>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="ementos-header" id="menu">
+        <li><a class="botao-header" href="#">Home</a></li>
+        <li><a class="botao-header" href="#banner">Sobre mim</a></li>
+        <li><a class="botao-header" href="#projetos">Projetos</a></li>
+        <li><a class="botao-header" href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="section-banner">
+    <section class="section-banner" id="banner">
       <div class="banner">
         <div class="fundo-gradiente">
           <img class="img-perfil" src="img/logo.PNG" alt="foto de perfil">
@@ -156,8 +162,8 @@
       </div>
     </section>
 
-    <section class="projetos">
-      <h2 class="titulo-projetos-pri">Projetos:</h2>
+    <section class="projetos" id="projetos">
+      <h2 class="titulo-projetos-pri">Projetos</h2>
       <div class="swiperManual">
         <div class="swiper-wrapper">
           <a href="https://alurabook-nine-puce.vercel.app/" class="swiper-slide swiper-slideMannual">
@@ -229,7 +235,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="contato">
       <div class="background">
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 1600 900">
@@ -257,7 +263,7 @@
           </g>
         </svg>
       </div>
-      <section class="section">
+      <section class="section" id="Contato">
         <ul class="socials" id="social">
           <li><a href="https://github.com/dionlucas10" class="fa-brands fa-github" style="color:#111"></a></li>
           <li><a href="https://www.linkedin.com/in/dion-lucas10" class="fa-brands fa-linkedin" style="color:#111"></a>

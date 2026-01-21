@@ -34,6 +34,7 @@ header{
     font-size: 18px;
     color: var(--branco);
     cursor: pointer;
+    text-decoration: none;
     
 }
 
@@ -41,4 +42,98 @@ header{
     color: var(--azul-vibrante);
     transition: 0.3s;
     
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav-header{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+        padding: 0 20px;
+    }
+
+    .ementos-header{
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(135deg, #010A1A 0%, #051948 100%);
+        padding: 20px 0;
+        gap: 1rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .ementos-header.active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        
+    }
+
+    .ementos-header.active li {
+        animation: slideIn 0.4s ease forwards;
+    }
+
+    .ementos-header.active li:nth-child(1) { animation-delay: 0s; }
+    .ementos-header.active li:nth-child(2) { animation-delay: 0.1s; }
+    .ementos-header.active li:nth-child(3) { animation-delay: 0.2s; }
+    .ementos-header.active li:nth-child(4) { animation-delay: 0.3s; }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        gap: 4px;
+    }
+
+    .hamburger span {
+        width: 25px;
+        height: 3px;
+        background-color: var(--branco);
+        transition: 0.3s;
+        
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+        opacity: 1;
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+        
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .botao-header{
+        font-size: 16px;
+        text-decoration: none;
+
+    }
+
+    
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

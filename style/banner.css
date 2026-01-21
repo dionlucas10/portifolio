@@ -100,3 +100,59 @@
   font-size: 1.3rem;
   line-height: 2rem;
 }
+
+@media screen and (max-width: 844px) {
+  .section-banner {
+    margin: 6rem 1rem 0;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 1rem 0;
+    gap: 15px;
+  }
+  .fundo-gradiente {
+    width: 200px;
+    height: 160px;
+  }
+  .img-perfil {
+    width: 140px;
+    height: 140px;
+  }
+  .titulo1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .frase1 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .frase2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    width: auto;
+    text-align: center;
+  }
+  .frasef {
+    width: auto;
+    text-align: center;
+  }
+  .banner-div2 {
+    margin: 2rem 1rem;
+    width: auto;
+    gap: 20px;
+  }
+  .texto-anim {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .text-sobre {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  #typing{
+    font-size: 1.5rem;
+  }
+}
