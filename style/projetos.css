@@ -20,6 +20,7 @@
 
 .swiperManual .swiper-slide {
   background: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
   /* width: 300px; */
 }
 
@@ -97,6 +98,11 @@
   .swiper-slideMannual {
     flex-direction: column;
     justify-content: center;
+    text-decoration: none;
+  }
+
+  .swiper-slide {
+    text-decoration: none;
   }
 
   .img-projetos {
@@ -110,16 +116,19 @@
     left: 0;
     top: 0;
     padding: 1rem 0;
+    text-decoration: none;
   }
 
   .titulo-projetos {
     font-size: 1.5rem;
     padding: 0 1rem;
+    text-decoration: none;
   }
 
   .texto-projeto {
     font-size: 1rem;
     padding: 0 1rem;
+    text-decoration: none;
   }
 }
 
@@ -136,4 +145,51 @@
     font-size: 1.1rem;
   }
 
+}
+
+@media screen and (max-width: 1190px) {
+
+  .projetos {
+    margin: 2rem auto;
+  }
+
+  .titulo-projetos-pri {
+    font-size: 2rem;
+  }
+
+  .swiper-slideMannual {
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .swiper-slide {
+    text-decoration: none;
+  }
+
+  .img-projetos {
+    width: 100%;
+    margin: 0;
+  }
+
+  .div-textos {
+    position: static;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 1rem 0;
+    text-decoration: none;
+  }
+
+  .titulo-projetos {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    text-decoration: none;
+  }
+
+  .texto-projeto {
+    font-size: 1rem;
+    padding: 0 1rem;
+    text-decoration: none;
+  }
 }
