@@ -122,3 +122,18 @@
     padding: 0 1rem;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .div-textos {
+    padding: 1.5rem;
+  }
+
+  .titulo-projetos {
+    font-size: 1.8rem;
+  }
+
+  .texto-projeto {
+    font-size: 1.1rem;
+  }
+
+}

@@ -79,6 +79,10 @@
   width: 800px;
 }
 
+.text-sobre{
+  text-align: justify;
+}
+
 .texto-anim {
   font-size: 2.5rem;
   font-family: var(--fonte-secundaria);
@@ -130,7 +134,7 @@
   }
   .frase2 {
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 3rem;
     width: auto;
     text-align: center;
   }
@@ -150,9 +154,38 @@
   .text-sobre {
     font-size: 1rem;
     line-height: 1.5rem;
-    text-align: center;
+    text-align: justify;
   }
   #typing{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+  }
+}
+
+
+@media screen and (max-width: 390px ) {
+
+  .titulo1{
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0 ;
+  }
+  .frase1{
+    font-size: 0.7rem;
+    margin: 0 0 0.4rem 0 ;
+  }
+  .frase2{
+    font-size: 2rem;
+    line-height: 3rem;
+    /* width: 300px; */
+  }
+  .img-perfil {
+    width: 150px;
+    height: 150px;
+  }
+  #typing{
+    font-size: 1rem;
+  }
+
+  .frasef{
+    font-size: 0.6rem;
   }
 }
