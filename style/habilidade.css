@@ -84,7 +84,7 @@
 }
 
 
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 860px) {
   .habilidades {
     margin: 1rem 1rem;
   }
@@ -136,5 +136,13 @@
     font-size: 1.2rem;
     text-align: center;
     line-height: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .texto-tecnologia{
+    font-size: 0.9rem;
+    width: 90%;
   }
 }
