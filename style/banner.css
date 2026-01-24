@@ -5,8 +5,8 @@
 .fundo-gradiente {
   position: relative;
   display: inline-block;
-  width: 250px;
-  height: 200px;
+  width: 270px;
+  height: 220px;
   border-radius: 50%;
   background: radial-gradient(circle, var(--roxo) 0%, transparent 70%);
 }
@@ -16,14 +16,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .section-banner {
-  margin:10rem 0 0;
+  margin: 10rem 0 0;
 }
 .banner {
   display: flex;
@@ -36,7 +36,7 @@
 .banner-div {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 7px;
 }
 
 .titulo1 {
@@ -53,7 +53,7 @@
 }
 .frase2 {
   font-size: 3rem;
-  line-height: 3rem;
+  line-height: 3.5rem;
   width: 500px;
   font-family: var(--fonte-secundaria);
 }
@@ -70,7 +70,7 @@
 }
 
 .banner-div2 {
-  margin: 8.28rem 24.6rem;
+  margin: 3.28rem 24.6rem;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -121,12 +121,12 @@
     width: 90%;
     gap: 20px;
   }
-  .text-sobre{
+  .text-sobre {
     text-align: justify;
     font-size: 1.7rem;
     line-height: 2.5rem;
     margin: 1rem 0 0 0;
-}
+  }
 }
 
 @media screen and (max-width: 844px) {
@@ -210,7 +210,7 @@
   .frasef {
     font-size: 0.6rem;
   }
-  .text-sobre{
+  .text-sobre {
     font-size: 1rem;
   }
 }
