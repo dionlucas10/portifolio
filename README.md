@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./img/logo1.png" width="180" alt="Logo Dion Lucas" />
+  <img src="./src/img/logo1.png" width="180" alt="Logo Dion Lucas" />
 </p>
 
 <h1 align="center">🚀 Portfólio — Dion Lucas</h1>
@@ -23,10 +23,18 @@ Tenho facilidade com comunicação, trabalho em equipe e gosto de transformar id
 
 ## 🧠 Tecnologias & Habilidades
 
-- Desenvolvimento Frontend e Backend  
+### 🖥️ Tecnologias utilizadas no desenvolvimento do portfólio
+
+- **HTML5** — Estrutura da aplicação  
+- **CSS3** — Estilização e responsividade  
+- **JavaScript (ES6+)** — Interatividade e funcionalidades  
+- **Vite** — Ferramenta de build e ambiente de desenvolvimento moderno para projetos frontend  
+
+### ⚙️ Outras habilidades
+
 - Lógica de Programação  
 - UI/UX e Design de Interfaces  
-- Versionamento com Git  
+- Versionamento com **Git e GitHub**  
 - Estruturação de Projetos Web  
 
 ---
@@ -42,12 +50,12 @@ Tenho facilidade com comunicação, trabalho em equipe e gosto de transformar id
 | 🎵 **MusicMax** | Interface moderna para plataforma de música |
 
 🔗 Veja todos os projetos em:  
-👉 https://portifolio-gray-kappa.vercel.app/
+👉 https://portifolio-dion.vercel.app/
 
 ---
 
 ## 📫 Contato
 
-- 💻 **[GitHub:](https://github.com/dionlucas10)**  
-- 💼 **[LinkedIn:](https://www.linkedin.com/in/dion-lucas10/)**  
-- 📧 **[Instagram:](https://www.instagram.com/dion_lucas10/)**
+- 💻 **GitHub:** https://github.com/dionlucas10  
+- 💼 **LinkedIn:** https://www.linkedin.com/in/dion-lucas10/  
+- 📧 **Instagram:** https://www.instagram.com/dion_lucas10/
