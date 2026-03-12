@@ -4,7 +4,7 @@ async function loadTranslations() {
   try {
     const langs = ['pt', 'en', 'es'];
     for (let lang of langs) {
-      const response = await fetch(`src/locales/${lang}.json`);
+      const response = await fetch(`public/locales/${lang}.json`);
       translations[lang] = await response.json();
     }
     console.log('Traduções carregadas:', translations);

@@ -1,3 +1,7 @@
+import 'https://unpkg.com/scrollreveal'
+import 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js'
+
+
 import './js/header.js'
 import './js/projetos.js'
 import './js/scroll.js'
