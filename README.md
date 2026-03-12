@@ -5,7 +5,7 @@
 <h1 align="center">🚀 Portfólio — Dion Lucas</h1>
 
 <p align="center">
-  <a href="https://portifolio-gray-kappa.vercel.app/" target="_blank">
+  <a href="https://portifolio-dion.vercel.app/" target="_blank">
     🌐 Acesse meu portfólio
   </a>
 </p>
@@ -27,7 +27,8 @@ Tenho facilidade com comunicação, trabalho em equipe e gosto de transformar id
 
 - **HTML5** — Estrutura da aplicação  
 - **CSS3** — Estilização e responsividade  
-- **JavaScript (ES6+)** — Interatividade e funcionalidades  
+- **JavaScript (ES6+)** — Interatividade e funcionalidades
+- **TypeSctipt** - JavaScript com tipagem, usado para tornar o código mais seguro e organizado.
 - **Vite** — Ferramenta de build e ambiente de desenvolvimento moderno para projetos frontend  
 
 ### ⚙️ Outras habilidades
