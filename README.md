@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./img/logo1.png" width="180" alt="Logo Dion Lucas" />
+  <img src="./src/img/logo1.png" width="180" alt="Logo Dion Lucas" />
 </p>
 
 <h1 align="center">🚀 Portfólio — Dion Lucas</h1>
