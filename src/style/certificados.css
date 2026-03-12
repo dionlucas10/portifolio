@@ -94,7 +94,7 @@
   }
 
   .titulo-certificados {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
 
   .swiperCertificados {
@@ -122,16 +122,16 @@
 
   .espaco-certificado {
     width: 90%;
-    top: 49%;
-    padding: 15px;
+    top: 67%;
+    padding: 12px;
   }
 
   .titulo-certificado1 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 
   .texto-certificado1 {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   .swiper-slide-certificados:hover {
@@ -139,7 +139,8 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 476px) {
   .espaco-certificado {
     top: 55%;
   }
