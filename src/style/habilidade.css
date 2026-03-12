@@ -1,0 +1,148 @@
+.habilidades {
+  margin: 2rem 6.25rem;
+}
+
+.titulo-habilidade {
+  font-family: var(--fonte-secundaria);
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--azul-vibrante);
+}
+
+.habilidades-cont {
+  /* background: linear-gradient(135deg, #1e3a8a, #020617); */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 4rem;
+  /* margin: 473px 0px; */
+}
+.titulo-habilidade {
+  padding: 0 0 0 2rem;
+}
+
+.contene {
+  width: 570px;
+  height: 192.68px;
+  background: linear-gradient(135deg, #050b1f, #061a3a, #082b5c, #050b1f);
+  /* margin: 1rem; */
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contene:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(12, 107, 224, 0.6);
+}
+
+.texto-tecnologia {
+  font-family: var(--fonte-header);
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 800px;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 2rem;
+}
+
+.contene {
+  display: flex;
+  align-items: center;
+}
+
+.img-habilidades {
+  width: 100px;
+  height: auto;
+  margin: 2rem;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.textos-habilidades {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.texto-habilidades {
+  font-family: var(--fonte-header);
+  font-size: 1.1rem;
+  font-weight: 400;
+  width: 400px;
+  line-height: 1.8rem;
+  /* color: var(--azul-vibrante); */
+}
+
+.subititulo-habilidades {
+  font-family: var(--fonte-secundaria);
+  font-size: 1.5rem;
+  font-weight: 400;
+  /* color: var(--azul-vibrante); */
+}
+
+
+@media screen and (max-width: 860px) {
+  .habilidades {
+    margin: 1rem 1rem;
+  }
+
+  .titulo-habilidade {
+    font-size: 2rem;
+    padding: 0 0 0 1rem;
+  }
+
+  .habilidades-cont {
+    padding: 2rem 1rem;
+    gap: 20px;
+  }
+
+  .contene {
+    width: 100%;
+    max-width: 570px;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 1rem 0;
+  }
+
+  .img-habilidades {
+    width: 80px;
+    margin: 10px auto;
+  }
+
+  .textos-habilidades {
+    align-items: center;
+    line-height: 1rem;
+    gap: 0.5rem;
+    width: 90%;
+  }
+
+  .texto-habilidades {
+    width: 100%;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+  }
+
+  .texto-tecnologia {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .subititulo-habilidades {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .texto-tecnologia{
+    font-size: 0.9rem;
+    width: 90%;
+  }
+}

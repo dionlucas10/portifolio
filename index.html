@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portifolio</title>
+  <link rel="icon" href="src/img/logo.PNG" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="src/reset.css" />
+    <link rel="stylesheet" href="src/style.css" />
+  <script src="src/js/header.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-header">
+      <img class="img-logo" src="src/img/logo1.png" alt="img-logo" />      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="ementos-header" id="menu">
+        <li><a class="botao-header" href="#" data-i18n="home">Home</a></li>
+        <li><a class="botao-header" href="#banner" data-i18n="about">Sobre mim</a></li>
+        <li><a class="botao-header" href="#projetos" data-i18n="projects">Projetos</a></li>
+        <li><a class="botao-header" href="#contato" data-i18n="contact">Contato</a></li>
+      </ul>
+      <select id="language" class="language-select">
+        <option class="option" value="pt">Português</option>
+        <option class="option" value="en">English</option>
+        <option class="option" value="es">Español</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section-banner" id="banner">
+      <div class="banner">
+        <div class="fundo-gradiente">
+          <img class="img-perfil" src="src/img/dion.PNG" alt="foto de perfil">
+        </div>
+        <div class="banner-div">
+          <h1 class="titulo1" data-i18n="greeting">Hello! I Am <span class="azul">DION LUCAS</span></h1>
+          <p class="frase1" data-i18n="intro1">Um desenvolvedor que</p>
+          <h2 class="frase2"><span data-i18n="intro2">Julga um sistema pela interface…</span></h2>
+          <p class="frasef" data-i18n="intro3">Porque se a interface não impressiona, o que mais pode?</p>
+          <div class="curriculo-button">
+            <a class="a-button"
+              href="https://www.canva.com/design/DAGEfxGTxrg/zjRfh2UzOT1InjrPoDwYZw/edit?utm_content=DAGEfxGTxrg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+              <button class="button-curricu"><span data-i18n="curriculum">Curriculo</span> <i
+                  class="fa-solid fa-download"></i> </button>
+              <ul class="socials" id="social">
+                <li>
+                  <a href="https://github.com/dionlucas10" class="fa-curri fa-brands fa-github""></a>
+                </li>
+                <li>
+                  <a href=" https://www.linkedin.com/in/dion-lucas10" class="fa-curri fa-brands fa-linkedin"></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/dion_lucas10/" class="fa-curri fa-brands fa-instagram"></a>
+                </li>
+              </ul>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner-div2">
+        <h2 class="texto-anim">
+          <span id="typing"></span>
+        </h2>
+        <p data-i18n="texto-apresen" class="text-sobre">Estudante de Desenvolvimento Full Stack,
+          transformando ideias em soluções digitais por meio de
+          código limpo, interfaces intuitivas e experiências que geram
+          impacto real.</p>
+      </div>
+    </section>
+
+    <section class="habilidades">
+      <h2 class="titulo-habilidade" data-i18n="skills">Habilidades:</h2>
+      <div class="habilidades-cont">
+        <div class="contene">
+          <img class="img-habilidades" src="src/img/rede.png" alt="rede">
+          <div class="textos-habilidades">
+            <h2 class="subititulo-habilidades" data-i18n="fullstack">Desenvolvimento FullStack</h2>
+            <p class="texto-habilidades" data-i18n="fullstack_desc">Criação de aplicações completas, do front-end
+              responsivo ao back-end eficiente
+              e
+              escalável.</p>
+          </div>
+        </div>
+        <div class="contene">
+          <img class="img-habilidades" src="src/img/pensamento-logico.png" alt="pensamento-logico">
+          <div class="textos-habilidades">
+            <h2 class="subititulo-habilidades" data-i18n="logic">Lógica de Programação e Resolução de Problemas</h2>
+            <p class="texto-habilidades" data-i18n="logic_desc">Capacidade de analisar desafios e criar soluções limpas
+              e funcionais.</p>
+          </div>
+        </div>
+        <div class="contene">
+          <img class="img-habilidades" src="src/img/ux.png" alt="pensamento-logico">
+          <div class="textos-habilidades">
+            <h2 class="subititulo-habilidades" data-i18n="design">UI/UX e Design de Interfaces</h2>
+            <p class="texto-habilidades" data-i18n="design_desc">Desenvolvimento de interfaces modernas, intuitivas e
+              focadas na experiência do
+              usuário.</p>
+          </div>
+        </div>
+        <div class="contene">
+          <img class="img-habilidades" src="src/img/socios.png" alt="rede">
+          <div class="textos-habilidades">
+            <h2 class="subititulo-habilidades" data-i18n="teamwork">Trabalho em Equipe e Comunicação</h2>
+            <p class="texto-habilidades" data-i18n="teamwork_desc">Criação de aplicações completas, do front-end
+              responsivo ao back-end eficiente
+              e escalável.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="tecnologias">
+        <p class="texto-tecnologia" data-i18n="tech_intro">Possuo domínio em tecnologias voltadas ao <span
+            class="azul">desenvolvimento
+            FullStack</span>, criando soluções digitais completas que unem design, performance e funcionalidade para
+          transformar ideias em experiências modernas e acessíveis.</p>
+      </div>
+      <!-- bom -->
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/html.png" alt="HTML">
+            <p class="tech-name">HTML</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/css-3.png" alt="CSS">
+            <p class="tech-name">CSS</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/java-script.png" alt="JavaScript">
+            <p class="tech-name">JavaScript</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/typescript.png" alt="TypeScript">
+            <p class="tech-name">TypeScript</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/physics.png" alt="React">
+            <p class="tech-name">React</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/php.png" alt="php">
+            <p class="tech-name">PHP</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/bootstrap.png" alt="Bootstrap">
+            <p class="tech-name">Bootstrap</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/python.png" alt="python">
+            <p class="tech-name">Python</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/github.png" alt="github">
+            <p class="tech-name">GitHub</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/social.png" alt="social">
+            <p class="tech-name">GIT</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/figma.png" alt="figma">
+            <p class="tech-name">Figma</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/letter-c.png" alt="letter-c">
+            <p class="tech-name">C</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/programing.png" alt="programing">
+            <p class="tech-name">MySQL</p>
+          </div>
+          <div class="swiper-slide"><img class="logo-tecnologias" src="src/img/node-js.png" alt="node-js">
+            <p class="tech-name">Node.js</p>
+          </div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+
+    <section class="certificados" id="certificados">
+      <h2 class="titulo-certificados" data-i18n="certificates">Certificados:</h2>
+
+      <!-- Slider main container -->
+      <div class="swiperCertificados">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <a href="https://drive.google.com/file/d/19NCkQojWoElre92ECKaDE8ztIUl1VfAV/view?usp=sharing"
+            class="swiper-slide swiper-slide-certificados">
+            <img class="img-certificados" src="src/img/medMastery.png" alt="certificado1">
+            <div class="espaco-certificado">
+              <h3 class="titulo-certificado1" data-i18n="cert1_title">MASTERY MED</h3>
+              <p class="texto-certificado1" data-i18n="cert1_desc">Certificado de participação no Hackathon Mastery Med
+                2024, com foco em
+                inovação, criatividade e trabalho em equipe na área da saúde.</p>
+            </div>
+          </a>
+          <a href="c"
+            class="swiper-slide swiper-slide-certificados">
+            <img class="img-certificados" src="src/img/trilhaHtml.png" alt="certificado2">
+            <div class="espaco-certificado">
+              <h3 class="titulo-certificado1" data-i18n="cert2_title">HTML e CSS para projetos web II</h3>
+              <p class="texto-certificado1" data-i18n="cert2_desc">Certificado de participação na formação de HTML
+                e CSS, com foco nos fundamentos do front-end e responsividade.</p>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/1ACFMN38a96r0RHxn1bqLmvmc2iRwxK4B/view?usp=sharing"
+            class="swiper-slide swiper-slide-certificados">
+            <img class="img-certificados" src="src/img/do_zero.png" alt="certificado3">
+            <div class="espaco-certificado">
+              <h3 class="titulo-certificado1" data-i18n="cert3_title">HTML e CSS para projetos web I</h3>
+              <p class="texto-certificado1" data-i18n="cert3_desc">Certificado de participação na formação HTML e CSS,
+                com foco em estruturação
+                de páginas e responsividade no front-end.</p>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/1wRX52Umm-9dsT2Rsi2VVFWBZPFKz0pD5/view?usp=sharing"
+            class="swiper-slide swiper-slide-certificados">
+            <img class="img-certificados" src="src/img/dados_pythonII.png" alt="certificado4">
+            <div class="espaco-certificado">
+              <h3 class="titulo-certificado1" data-i18n="cert4_title">Imersão Dados com Python II</h3>
+              <p class="texto-certificado1" data-i18n="cert4_desc">Certificado de participação na Imersão Dados com
+                Python II (Alura), com foco
+                em análise e manipulação de dados usando Python..</p>
+            </div>
+          </a>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+      <h2 class="titulo-projetos-pri" data-i18n="projects_title">Projetos:</h2>
+      <div class="swiperManual">
+        <div class="swiper-wrapper">
+          <a href="https://alurabook-nine-puce.vercel.app/" class="swiper-slide swiper-slideMannual">
+            <div class="div-textos">
+              <h2 class="titulo-projetos" data-i18n="proj1_title">Alurabook 📚</h2>
+              <p class="texto-projeto" data-i18n="proj1_desc">Projeto web responsivo que simula uma vitrine de e-books,
+                com foco em layout
+                moderno, organização de conteúdo e boa experiência de navegação, aplicando conceitos de desenvolvimento
+                front-end com HTML, CSS e JavaScript.</p>
+            </div>
+            <img class="img-projetos" src="src/img/alurabook.png" alt="">
+          </a>
+          <a href="https://calculadora-psi-tan-78.vercel.app/" class="swiper-slide">
+            <div class="div-textos">
+              <h2 class="titulo-projetos" data-i18n="proj2_title">Calculadora 🧮</h2>
+              <p class="texto-projeto" data-i18n="proj2_desc">Site simples de desafio de programação que reúne várias
+                calculadoras e funções matemáticas (como IMC, fatorial, conversões e tabuada), funcionando como um menu
+                para realizar cálculos diretamente no navegador.</p>
+            </div>
+            <img class="img-projetos" src="src/img/calculo.png" alt="">
+          </a>
+          <a href="https://jogo-possivel.vercel.app/" class="swiper-slide">
+            <div class="div-textos">
+              <h2 class="titulo-projetos" data-i18n="proj3_title">Jogo Possível 🎮</h2>
+              <p class="texto-projeto" data-i18n="proj3_desc">Projeto web interativo focado em lógica e experiência do
+                usuário, com interface
+                simples e dinâmica. Desenvolvido com HTML, CSS e JavaScript, aplicando conceitos de manipulação do DOM e
+                interatividade para criar uma experiência envolvente no navegador.</p>
+            </div>
+            <img class="img-projetos" src="src/img/jogopossivel.png" alt="">
+          </a>
+          <a href="https://jogo-da-adivinha-o-phi.vercel.app/" class="swiper-slide">
+            <div class="div-textos">
+              <h2 class="titulo-projetos" data-i18n="proj4_title">Jogo da Adivinhação 🎯</h2>
+              <p class="texto-projeto" data-i18n="proj4_desc">Projeto web desenvolvido como desafio da plataforma Alura,
+                focado na criação de
+                um jogo interativo de adivinhação de números, aplicando lógica de programação e conceitos de front-end
+                com HTML, CSS e JavaScript.</p>
+            </div>
+            <img class="img-projetos" src="src/img/jogodaadivi.png" alt="">
+          </a>
+          <a href="https://ailturturismo.vercel.app/" class="swiper-slide">
+            <div class="div-textos">
+              <h2 class="titulo-projetos" data-i18n="proj5_title">Ailtur Turismo ✈️</h2>
+              <p class="texto-projeto" data-i18n="proj5_desc">Projeto web desenvolvido como meu primeiro freelance,
+                focado na criação de um
+                site institucional responsivo para apresentação de serviços turísticos, com layout moderno e navegação
+                intuitiva, utilizando HTML, CSS e JavaScript.</p>
+            </div>
+            <img class="img-projetos" src="src/img/ailtu.png" alt="">
+          </a>
+          <a href="https://musicmax-sigma.vercel.app/" class="swiper-slide">
+            <div class="div-textos">
+              <h2 class="titulo-projetos" data-i18n="proj6_title">MusicMax 🎵</h2>
+              <p class="texto-projeto" data-i18n="proj6_desc">Projeto web focado na criação de uma interface moderna
+                para uma plataforma de
+                música, com layout responsivo e navegação intuitiva, aplicando conceitos de front-end com HTML, CSS e
+                JavaScript.</p>
+            </div>
+            <img class="img-projetos" src="src/img/musicmax.png" alt="">
+          </a>
+          <a href="https://fokus-alu.vercel.app/" class="swiper-slide">
+            <div class="div-textos">
+              <h2 class="titulo-projetos" data-i18n="proj7_title">FOKUS 📌</h2>
+              <p class="texto-projeto" data-i18n="proj7_desc">Aplicação web baseada na técnica Pomodoro para auxiliar no
+                foco e na organização
+                do tempo. Desenvolvida com HTML, CSS e JavaScript, utilizando lógica e interatividade para criar uma
+                experiência simples e funcional no navegador.</p>
+            </div>
+            <img class="img-projetos" src="src/img/fokus.png" alt="">
+          </a>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <footer id="contato">
+      <div class="background">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 1600 900">
+          <defs>
+            <path id="wave" fill="rgba(12, 107, 224, 0.8)"
+              d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+        s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+          </defs>
+          <g>
+            <use xlink:href="#wave" opacity=".4">
+              <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="8s"
+                calcMode="spline" values="270 230; -334 180; 270 230" keyTimes="0; .5; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite" />
+            </use>
+            <use xlink:href="#wave" opacity=".6">
+              <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="6s"
+                calcMode="spline" values="-270 230;243 220;-270 230" keyTimes="0; .6; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite" />
+            </use>
+            <use xlink:href="#wave" opacty=".9">
+              <animateTransform attributeName="transform" attributeType="XML" type="translate" dur="4s"
+                calcMode="spline" values="0 230;-140 200;0 230" keyTimes="0; .4; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite" />
+            </use>
+          </g>
+        </svg>
+      </div>
+      <section class="section" id="Contato">
+        <ul class="socials" id="social">
+          <li><a href="https://github.com/dionlucas10" class="fa-brands fa-github" style="color:#111"></a></li>
+          <li><a href="https://www.linkedin.com/in/dion-lucas10" class="fa-brands fa-linkedin" style="color:#111"></a>
+          </li>
+          <li><a href="https://www.instagram.com/dion_lucas10/" class="fa-brands fa-instagram" style="color:#111"></a>
+          </li>
+        </ul>
+        <p class="legal" data-i18n="copyright">© Portifolio Dion Lucas</p>
+      </section>
+    </footer>
+  </main>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="/src/js/texto-deco.js"></script>
+  <script src="/src/js/swiper.js"></script>
+  <script src="/src/js/certificados.js"></script>
+  <script src="/src/js/projetos.js"></script>
+  <script src="/src/js/footer.js"></script>
+  <script src="/src/js/scroll.js"></script>
+  <script src="/src/js/translate.js"></script>
+
+</body>
+
+</html>
