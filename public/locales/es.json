@@ -44,5 +44,9 @@
   "proj6_desc": "Proyecto web enfocado en crear una interfaz moderna para una plataforma de música, con diseño responsivo y navegación intuitiva, aplicando conceptos de front-end con HTML, CSS y JavaScript.",
   "proj7_title": "FOKUS 📌",
   "proj7_desc": "Aplicación web basada en la técnica Pomodoro para ayudar con el enfoque y la gestión del tiempo. Desarrollada con HTML, CSS y JavaScript, utilizando lógica e interactividad para crear una experiencia simple y funcional en el navegador.",
-  "copyright": "© Portafolio Dion Lucas"
+  "copyright": "© Portafolio Dion Lucas",
+
+  "cert5_title": "Entrenamiento en Angular",
+  "cert5_desc": "Certificado de participación en capacitación Angular, con enfoque en desarrollo de aplicaciones web modernas y eficientes."
+
 }
