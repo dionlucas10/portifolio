@@ -47,6 +47,11 @@
   "copyright": "© Portafolio Dion Lucas",
 
   "cert5_title": "Entrenamiento en Angular",
-  "cert5_desc": "Certificado de participación en capacitación Angular, con enfoque en desarrollo de aplicaciones web modernas y eficientes."
+  "cert5_desc": "Certificado de participación en capacitación Angular, con enfoque en desarrollo de aplicaciones web modernas y eficientes.",
 
+  "cert6_title": "JavaScript: Implementación de CRUD con solicitudes HTTP",
+  "cert6_desc": "Este curso de JavaScript se centra en el desarrollo web, con ejercicios prácticos sobre operaciones CRUD, consumo de API mediante solicitudes HTTP utilizando Fetch y Axios, y simulación de un backend con JSON Server.",
+
+  "cert7_title": "Imersão Front-End com IA",
+  "cert7_desc": "Participación en treinamento focado em front-end moderno e uso de Inteligência Artificial para apoiar o desenvolvimento e a criação de interfaces web."
 }
